@@ -1,0 +1,15 @@
+Movie - movie_id, movie_name, movie_genre, movie_language, movie_release_date
+
+City - city_id, city_name, city_state
+
+Theatre - theatre_id, theatre_name, theatre_location, city_id
+
+User - user_id, user_fname, user_lname, user_email, user_dob, user_address, user_password
+
+Ticket_Booked - ticket_id, movie_id, city_id, theatre_id, ticket_price, user_id, show_id, number_of_seats
+
+Show_Time - show_id, show_date, show_time, movie_id, theatre_id, city_id
+
+Seat - seat_id, screen_id, theatre_id
+
+Screen - screen_id, screen_name, theatre_id
